@@ -1,0 +1,8 @@
+minimumPasswordLen: 8
+cache_on: true
+redis:
+  host: localhost
+  port: 6377
+  ttl:
+    countryCacheTtl: 72000
+    cacheToFiveMinutes: 300
